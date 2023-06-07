@@ -35,9 +35,6 @@ public class Password {
                 min++;
             }
         }
-        System.out.println(num + " " +
-                may + " " +
-                min );
         if (num >= 5 && may >= 2 && min >= 1) {
             torf = true;
         } else torf = false;
