@@ -30,6 +30,7 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = sexo;
+        generarDNI();
         this.peso = peso;
         this.altura = altura;
     }
